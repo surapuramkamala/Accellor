@@ -1,0 +1,1 @@
+show GRANTS for 'yourusername'@'localhost'
