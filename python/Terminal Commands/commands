@@ -1,0 +1,15 @@
+1: To navigate back one folder (or directory) in the terminal, you use the cd (change directory) command followed by ... This moves you up one level in the directory structure.
+
+|__cd .. |->Command
+
+example:/home/user/projects/myproject
+ use: cd ..
+output:/home/user/projects
+
+2: adding virtual environmental:
+
+|_python -m venv venv  |-> creating virtual environmental 
+  |_venv/Scripts/activate  |->Activating 
+
+if want to deactivate:
+|_ deactivate |->deactivating
