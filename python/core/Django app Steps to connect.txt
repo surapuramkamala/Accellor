@@ -1,0 +1,14 @@
+in Terminal:
+  |_ django-admin startproject core
+   |_ cd core 
+    |_code .
+
+After Open django App in that terminal:
+  |_python manage.py startapp home 
+    |_python namage.python startapp accounts 
+     |_python manage.py runserver 
+      |_copy:- http//:127.0.0.1:8000 paste in browser and wrok out
+
+
+if you want to change port number:
+python manage.py runserver 0.0.0.0:5000
